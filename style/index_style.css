@@ -145,10 +145,32 @@ a.menu_item:hover,
     padding: 8px 16px;
 }
 
-section.news {
-    display: flex;
-    width: 100vw;
-    height: 670px;
-    background: #333;
-    color: white;
+.geral {
+    display:flex;
+	justify-content:center;
+}
+
+.news_post {
+    flex: 2;
+}
+
+.other_news_aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin: 2rem 0 1rem;
+}
+
+.widget_title_text {
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin-top: 12px;
 }
