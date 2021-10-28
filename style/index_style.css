@@ -128,7 +128,7 @@ a.menu_item:hover,
 .cards_title {
     font-size: 24px;
     font-weight: normal;
-
+    font-family: var(--font-primary);
     margin-bottom: 1rem;
 }
 
@@ -140,6 +140,7 @@ a.menu_item:hover,
 .card a {
     color: white;
     font-size: 14px;
+    font-family: var(--font-primary);
     display: inline-block;
     border: 1px solid white;
     padding: 8px 16px;
@@ -173,4 +174,44 @@ a.menu_item:hover,
     height: 3px;
     background-color: var(--primary-color);
     margin-top: 12px;
+}
+
+article .news_data {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+article .news_posted_at {
+    background-color: var(--other-color);
+    color: white;
+
+    padding: 8px 16px;
+}
+
+article .news_comments {
+    background-color: var(--primary-color);
+    color: white;
+
+    margin-left: 4px;
+    padding: 8px 16px;
+}
+
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    color: #333;
+    font-size: 24px;
+    margin: 2rem 0 2rem;
+}
+
+article .news_resume {
+    color: #33333390;
+    font-size: 16px;
+    font-family: var(--paragraph-font);
+
+    margin-bottom: 2rem;
+   
 }
