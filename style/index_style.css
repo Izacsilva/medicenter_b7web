@@ -29,14 +29,15 @@ a {
 #header {
     display:flex;
 	justify-content:center;
+    align-items: center;
 	height:120px;
 
 }
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 988px;
+    
     
 }
 
@@ -176,6 +177,17 @@ a.menu_item:hover,
     margin-top: 12px;
 }
 
+.flex {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+article {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 24px;
+}
+
 article .news_data {
     display: flex;
     margin-bottom: 2rem;
@@ -214,4 +226,66 @@ article .news_resume {
 
     margin-bottom: 2rem;
    
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu, .footer_information {
+    display: flex;
+    margin-bottom:24px;
+    
+}
+
+.footMenu_btn1, .footMenu_btn2, .footMenu_btn3 {
+    flex: 1;
+    padding: 24px;
+}
+
+.footMenu_btn1 {
+    background-color: var(--primary-color);
+} 
+.footMenu_btn2 {
+    background-color: var(--secundary-color);
+} 
+.footMenu_btn3 {
+    background-color: var(--other-color);
+}
+
+.footInform_text1, .footInform_text2, .footInform_text3 {
+    flex: 1;
+}
+
+.footer_menu .title {
+    font-size: 24px;
+    margin-bottom:8px;
+    font-weight:normal;
+}
+
+h3.widget_title_text {
+    font-size: 18px;
+    font-weight:normal;
+    
+    
+}
+
+.footer_information .widget_title {
+    margin: 0;
+}
+.footer_information .widget_title_bar {
+    width: 72px;
+    height: 2px;
+}
+
+.footer_menu p {
+    font-family: var(--paragraph-font);
+}
+
+.footer_menu .arrow {
+    
+    margin-left:1rem;
 }
