@@ -21,7 +21,12 @@
 }
 
 a {
+    color: white;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* === Cabeçalho === */
@@ -241,6 +246,17 @@ footer {
     
 }
 
+.footer_menu a {
+    color: white;
+    transition:all 0.5ms;
+    
+}
+.footer_menu a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+    
+}
+
 .footMenu_btn1, .footMenu_btn2, .footMenu_btn3 {
     flex: 1;
     padding: 24px;
@@ -285,7 +301,73 @@ h3.widget_title_text {
     font-family: var(--paragraph-font);
 }
 
-.footer_menu .arrow {
-    
+.fa-arrow-right {
+    font-size:12px;
+    margin-right:8px;
+}
+
+
+.footer_menu .fa-arrow-right {
     margin-left:1rem;
+    
+}
+
+.information {
+    font-size: 0.9rem;
+    font-family:var(--paragraph-font);
+    color:gray;
+    margin-right: 1rem;
+}
+.white_text {
+    color:white;
+}
+
+.medicenter_address {
+    font-size: 1rem;
+}
+
+address {
+    display: flex;
+    align-items: flex-end;
+    margin: 16px 0;
+    
+}
+
+address .contact{
+   
+    text-align: right;
+
+    margin-left: 1rem;
+}
+
+.icons {
+    font-size: 32px;
+}
+
+.icons .fab {
+    margin-right: 8px;
+    transition: all 0.9s;
+}
+
+.icons .fab:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.social_posts {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.social_posts .arrow_new_post {
+    margin-top: 4px;
+}
+
+.coments_post a {
+    color: white;
+}
+
+.social_posts .coments_date {
+    color: var(--primary-color);
+    margin-top: 8px;
 }
