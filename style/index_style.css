@@ -165,6 +165,10 @@ a.menu_item:hover,
     flex: 1;
 }
 
+.news_post, .other_news_aside {
+    padding: 0 24px;
+}
+
 .widget_title {
     margin: 2rem 0 1rem;
 }
@@ -189,8 +193,9 @@ a.menu_item:hover,
 
 article {
     flex: 1;
-    max-width: 300px;
-    margin-right: 24px;
+    width: 100%;
+    max-width: 276px;
+    margin-right: 8px;
 }
 
 article .news_data {
@@ -370,4 +375,11 @@ address .contact{
 .social_posts .coments_date {
     color: var(--primary-color);
     margin-top: 8px;
+}
+
+
+@media (max-width: 820px){
+    .banner_headline .title_hero {
+
+    }
 }
