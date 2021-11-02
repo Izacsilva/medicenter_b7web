@@ -109,7 +109,7 @@ a.menu_item:hover,
 
 .banner_cards_info {
     display: flex;
-    height: 210px;
+    min-height: 210px;
     
 }
 
@@ -165,9 +165,7 @@ a.menu_item:hover,
     flex: 1;
 }
 
-.news_post, .other_news_aside {
-    padding: 0 24px;
-}
+
 
 .widget_title {
     margin: 2rem 0 1rem;
@@ -377,9 +375,58 @@ address .contact{
     margin-top: 8px;
 }
 
+@media (max-width: 852px) {
+    article {
+        max-width: 95%;
+    }
+    .news_post {
+        padding: 0 24px;
+    }
+}
+@media (max-width: 600px) {
 
-@media (max-width: 820px){
+
+
     .banner_headline .title_hero {
+        font-size: 3rem;
+    }
 
+    .banner_headline .subtitle_hero {
+        font-size: 18px;
+    }
+
+    .banner_headline {
+        max-width: 280px;
+        padding: 0 18px;
+    }
+
+    .banner_cards_info {
+        flex-direction: column;
+    }
+
+
+    .first_card, .second_card, .third_card {
+        padding: 18px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .geral section, aside {
+        padding: 18px;
+    }
+
+    .footer_menu, .footer_information {
+        flex-direction: column;
+    }
+
+    .footMenu_btn1, .footMenu_btn2, .footMenu_btn3 {
+        padding: 24px 18px;
+    }
+
+    .footer_information > div {
+        margin-bottom: 16px;
+        padding: 0 18px;
     }
 }
