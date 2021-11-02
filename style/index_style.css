@@ -426,7 +426,7 @@ address .contact{
     }
 
     .footer_information > div {
-        margin-bottom: 16px;
-        padding: 0 18px;
+        padding: 16px 18px;
+        
     }
 }
