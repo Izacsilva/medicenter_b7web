@@ -41,9 +41,15 @@ a:hover {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 988px;
+    width: 100vw;
+    max-width: 988px;
     
     
+    
+}
+
+#header .container {
+    align-items: center;
 }
 
 ul.menu_list {
@@ -155,6 +161,10 @@ a.menu_item:hover,
 .geral {
     display:flex;
 	justify-content:center;
+}
+
+.geral > .container {
+    align-items: flex-start;
 }
 
 .news_post {
@@ -375,6 +385,17 @@ address .contact{
     margin-top: 8px;
 }
 
+.copy {
+    border-top: solid 1px #5c5c5c;
+    color: rgb(202, 202, 202);
+    font-family: var(--paragraph-font);
+    font-weight: 200;
+    font-style: italic;
+
+    margin-bottom: 2rem;
+    padding-top: 16px;
+}
+
 @media (max-width: 852px) {
     article {
         max-width: 95%;
@@ -385,7 +406,9 @@ address .contact{
 }
 @media (max-width: 600px) {
 
-
+    #banner {
+        height: auto;
+    }
 
     .banner_headline .title_hero {
         font-size: 3rem;
@@ -428,5 +451,9 @@ address .contact{
     .footer_information > div {
         padding: 16px 18px;
         
+    }
+
+    header .container {
+        flex-direction: row;
     }
 }
