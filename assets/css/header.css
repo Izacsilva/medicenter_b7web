@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+    width: 990px;
+}
+
+.logo, .menu {
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+}
+
+.menu nav ul li{
+    list-style: none;
+}
+
+.menu nav ul {
+    display: flex;
+    
+}
+
+.menu nav ul li a {
+    display:block;
+    color: var(--gray-color);
+    text-transform: uppercase;
+    padding: 16px;
+}
+
+.menu nav ul li a:hover,
+.menu nav ul li a.active {
+    background-color: var(--primary-color);
+    color: white;
+}
