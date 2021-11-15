@@ -38,10 +38,18 @@
     line-height: 32px;
 }
 .banner_options {
+    font-family: var(--paragraph-font);
+    color: white;
     height: 210px;
     display: flex;
-}
 
+}
+.option_card1,
+.option_card2,
+.option_card3 {
+    padding: 24px;
+
+}
 .option_card1{
     flex: 1;
     background-color: var(--primary-color);
@@ -55,5 +63,21 @@
 .option_card3{
     flex: 1;
     background-color: var(--other-color);
+    
+}
+
+tr {
+    border:solid 1px white;
+}
+.banner_options h3, p {
+    margin-bottom: 16px;
+}
+
+.banner_options a {
+    border: solid 1.5px white;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 8px;
     
 }
