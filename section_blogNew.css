@@ -1,0 +1,30 @@
+#blogNews {
+    display: flex;
+    justify-content: center;
+}
+
+#blogNews section {
+    flex: 2;
+}
+
+#blogNews aside {
+    flex: 1;
+}
+
+#blogNews .widget_title {
+    margin: 32px 0 0 0;
+    
+}
+
+#blogNews .widget_TitleText {
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#blogNews .widget_TitleBar {
+    background-color: var(--primary-color);
+    width: 72px;
+    height: 3px;
+    margin: 16px 0;
+}
