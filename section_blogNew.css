@@ -28,3 +28,31 @@
     height: 3px;
     margin: 16px 0;
 }
+
+#blogNews .newsPosts .newsData {
+    display: flex;
+    margin: 24px 0;
+  
+}
+
+#blogNews .newsPosts .newsData .news_posted {
+    background: var(--secundary-color);
+}
+
+#blogNews .newsPosts .newsData .news_coments {
+    background: var(--primary-color);
+    padding: 8px 12px;
+}
+.news_posted, .news_coments {
+    color: white;
+    padding: 8px 8px;
+    margin-right: 8px;
+    
+    font-weight: 500;
+}
+
+#blogNews .newsPosts .news_thumbnails img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
