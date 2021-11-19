@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/banner.css">
     <link rel="stylesheet" href="section_blogNew.css">
+    <link rel="stylesheet" href="contactForm.css">
     <link rel="stylesheet" href="footer.css">
+
+    <script src="https://kit.fontawesome.com/f9c615135e.js" crossorigin="anonymous"></script>
     <title>Medicenter</title>
 </head>
 
@@ -180,7 +183,31 @@
                         <div class="widget_TitleBar"></div>
                     </div>
                     <div class="widget_body">
-                        ...
+                        
+                        <div class="iconsDepartaments">
+                            <div class="iconImage">
+                                <img src="https://cdn-icons.flaticon.com/png/512/3910/premium/3910964.png?token=exp=1637314473~hmac=aa92a87e259ea47a2bac05214b7d82e4" alt="Nephrology">
+                            </div>
+                            <!-- <p>Nephrology</p> -->
+                        </div>
+                        <div class="iconsDepartaments">
+                            <div class="iconImage">
+                                <img src="https://cdn-icons.flaticon.com/png/512/3910/premium/3910964.png?token=exp=1637314473~hmac=aa92a87e259ea47a2bac05214b7d82e4" alt="Nephrology">
+                            </div>
+                            <!-- <p>Nephrology</p> -->
+                        </div>
+                        <div class="iconsDepartaments">
+                            <div class="iconImage">
+                                <img src="https://cdn-icons.flaticon.com/png/512/3910/premium/3910964.png?token=exp=1637314473~hmac=aa92a87e259ea47a2bac05214b7d82e4" alt="Nephrology">
+                            </div>
+                            <!-- <p>Nephrology</p> -->
+                        </div>
+                        <div class="iconsDepartaments">
+                            <div class="iconImage">
+                                <img src="https://cdn-icons.flaticon.com/png/512/3910/premium/3910964.png?token=exp=1637314473~hmac=aa92a87e259ea47a2bac05214b7d82e4" alt="Nephrology">
+                            </div>
+                            <!-- <p>Nephrology</p> -->
+                        </div>
                     </div>
                 </div>
                 <div class="widget">
@@ -189,14 +216,177 @@
                         <div class="widget_TitleBar"></div>
                     </div>
                     <div class="widget_body">
-                        ...
+                        <form action="" method="post">
+                            <fieldset class="userContact">
+                                <div class="inputUserName">
+                                    <input type="text" name="userName" id="userName" placeholder="Nome Completo">
+                                </div>
+                                <div class="inputUserName">
+                                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="DDD + Telefone">
+                                </div>
+                                <div class="inputUserName">
+                                    <input type="email" name="userEmail" id="userEmail" placeholder="Email de Cadastro">
+                                </div>
+                            </fieldset>
+                            <fieldset class="dataAppointment">
+                                <div class="deparmentsSelector">
+                                    <select name="inputDeparmentsSelector" id="inputDeparmentsSelector">
+                                        <option value="Nephrology">Nephrology</option>
+                                        <option value="Infectious Diseases">Infectious Diseases</option>
+                                        <option value="Hematology">Hematology</option>
+                                        <option value="General Medicine">General Medicine</option>
+                                    </select>
+                                </div>
+                                <div class="dateAppointment">
+                                    <input type="date" name="Calendar" id="Calendar">
+                                </div>
+                            </fieldset>
+    
+                            <fieldset class="observation">
+                                <textarea name="inputObservation" id="inputObservation" placeholder="Observação"></textarea>
+                            </fieldset>
+    
+                            <input type="submit" value="Send Appointment" class="btn">
+                        </form>
                     </div>
                 </div>
             </aside>
         </div>
     </section>
     <footer>
-        
+        <div class="container column">
+            <div class="footer_menu">
+                <div class="footMenu_btn1">
+                    <h3 class="title">Health Insurance</h3>
+                    <a href="#"><p>Lorem ipsum dolor, sit amet.<span class="arrow fas fa-arrow-right"></span></p></a>
+                </div>
+                <div class="footMenu_btn2">
+                    <h3 class="title">Medical Records</h3>
+                    <a href="#"><p>Lorem ipsum dolor, sit amet.<span class="arrow fas fa-arrow-right"></span></p></a>
+                </div>
+                <div class="footMenu_btn3">
+                    <h3 class="title">Online Bill Pay</h3>
+                    <a href="#"><p>Lorem ipsum dolor, sit amet.<span class="arrow fas fa-arrow-right"></span></p></a>
+                </div>
+            </div>
+            
+            <div class="footer_information">
+                <div class="footInform_text1">
+
+                    <div class="widget_title">
+                        <h3 class="widget_title_text">Medicenter Clinic</h3>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="information medicenter_address">
+                        <p>Medicenter is a responsive template perfect for screen sizes</p>
+                        <address>
+                            <p class="address">
+                                Medicenter Clinic<br>
+                                33 Farlane Street<br>
+                                Keilor East<br>
+                                VIC 3033, Australia
+                            </p>
+                            <p class="contact">
+                                +123 655 655<br>
+                                +123 755 755<br>
+                                <a href="#">medicenter@mail.com</a>
+                            </p>
+                        </address>
+                        <div class="icons">
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-instagram-square"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="footInform_text2">
+                    <div class="widget_title">
+                        <h3 class="widget_title_text">Latest Posts</h3>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="information white_text">
+                        <div class="social_posts">
+                            
+                            <span class="arrow_new_post fas fa-arrow-right"></span>
+                            <div class="new_social_post">
+                                <div class="coments_post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae gravida accumsan cursus.</div>
+                                <div class="coments_date">4 day ago</div>
+                            </div>   
+                            
+                            
+                        </div>
+
+                        <div class="social_posts">
+                            
+                            <span class="arrow_new_post fas fa-arrow-right"></span>
+                            <div class="new_social_post">
+                                <div class="coments_post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae gravida accumsan cursus.</div>
+                                <div class="coments_date">4 day ago</div>
+                            </div>   
+                            
+                            
+                        </div>
+
+                        <div class="social_posts">
+                            
+                            <span class="arrow_new_post fas fa-arrow-right"></span>
+                            <div class="new_social_post">
+                                <div class="coments_post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae gravida accumsan cursus.</div>
+                                <div class="coments_date">4 day ago</div>
+                            </div>   
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="footInform_text3">
+                    <div class="widget_title">
+                        <h3 class="widget_title_text">Latest Tweets</h3>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="information">
+                        <div class="social_posts">
+                            
+                            <span class="arrow_new_post fas fa-arrow-right"></span>
+                            <div class="new_social_post">
+                                <div class="coments_post">We've released new version (v5.0) of our #Timetable #Responsive #Schendule #WP Plugin with #booking #and #pdf #export...<a href="#">t/.co/FwvKmJcDoC</a>.</div>
+                                <div class="coments_date">4 day ago</div>
+                            </div>   
+                            
+                            
+                        </div>
+
+                        <div class="social_posts">
+                            
+                            <span class="arrow_new_post fas fa-arrow-right"></span>
+                            <div class="new_social_post">
+                                <div class="coments_post">We've released new version (v5.0) of our #Timetable #Responsive #Schendule #WP Plugin with #booking #and #pdf #export...<a href="#">t/.co/FwvKmJcDoC</a>.</div>
+                                <div class="coments_date">4 day ago</div>
+                            </div>   
+                            
+                            
+                        </div>
+
+                        <div class="social_posts">
+                            
+                            <span class="arrow_new_post fas fa-arrow-right"></span>
+                            <div class="new_social_post">
+                                <div class="coments_post">We've released new version (v5.0) of our #Timetable #Responsive #Schendule #WP Plugin with #booking #and #pdf #export...<a href="#">t/.co/FwvKmJcDoC</a>.</div>
+                                <div class="coments_date">4 day ago</div>
+                            </div>   
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="copy">
+                <p>@Copyright - MediCenter Template by QuanticaLab</p>
+            </div>
+        </div>
     </footer>
 </body>
 
