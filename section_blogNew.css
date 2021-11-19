@@ -12,11 +12,9 @@
 }
 
 #blogNews .widget_title {
-    
     margin: 32px 0 0 0;
+}   
     
-}
-
 #blogNews .widget_TitleText {
     color: var(--black-color);
     font-family: var(--font-primary);
@@ -31,9 +29,16 @@
     margin: 16px 0;
 }
 
+#blogNews .widget_body article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 12px;
+}
+
 article a {
     text-decoration: none;
 }
+
 #blogNews .newsPosts .newsData {
     display: flex;
     margin: 24px 0;

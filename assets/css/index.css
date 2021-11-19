@@ -29,3 +29,9 @@ a {
 .column{
     flex-direction: column;
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
