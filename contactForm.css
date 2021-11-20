@@ -1,6 +1,53 @@
-.widget_body .iconsDepartaments {
+.departamentsIcons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+.departComponent {
+    /* background: #ccc; */
+    display: flex;
+    align-items: center;
+    
+    width: 133px;
+    height: 150px;
+    
+    margin: 0 8px 8px 0;
+
+    cursor: pointer;
+    
+}
+
+
+
+.departComponent .iconImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    width: inherit;
+    height: 133px;
+    padding: 12px;
+    transition:transform 0.3s;
+    
+}
+
+.departComponent .iconImage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 4px #5c5c5c44;
+}
+
+.departComponent .iconImage img {
+    width: 90%;
+    height: auto;
+    
+    filter: invert(1);
     
     
+}
+.departComponent p {
+    font-size: 14px;
+    color: #5c5c5c77;
+    padding: 8px;
     
 }
 .widget_body .iconsDepartaments .iconImage {

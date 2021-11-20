@@ -11,12 +11,12 @@ footer {
     
 }
 
-.footer_menu a {
+footer a {
     color: white;
-    transition:all 0.5ms;
+    transition:all 0.3s;
     
 }
-.footer_menu a:hover {
+footer a:hover {
     opacity: 0.7;
     text-decoration: underline;
     

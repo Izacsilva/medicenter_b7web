@@ -66,9 +66,28 @@
     
 }
 
-tr {
-    border:solid 1px white;
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
+
+table tr {
+    margin-bottom: 24px;
+}
+
+td {
+    margin-bottom: 24px;
+    border-bottom:solid 1px white;
+    padding-bottom: 8px;
+    
+}
+
+table tr td.hour {
+    position: relative;
+    right: 0%;
+}
+
+
 .banner_options h3, p {
     margin-bottom: 16px;
 }
