@@ -1,7 +1,7 @@
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url(../imagens/img1.jpg);
+    background-image: url(../imagens/image-banner.jpg);
     background-position: center;
     background-size: cover;
 
@@ -17,13 +17,13 @@
 
 .banner_headline h1,
 .banner_headline h2 {
-    color: white;
+    color: var(--primary-color);
     font-weight: normal;
     
     
     max-width: 340px;
 
-    text-shadow: 0 2px 1px  #55555555;
+    /* text-shadow: 0 2px 1px  #55555555; */
 }
 
 .banner_headline h1 {
@@ -71,20 +71,14 @@ table {
     border-collapse: collapse;
 }
 
-table tr {
-    margin-bottom: 24px;
+td:first-child {
+    padding: 0 32px 0 0;
 }
 
 td {
-    margin-bottom: 24px;
-    border-bottom:solid 1px white;
-    padding-bottom: 8px;
+    border-bottom:solid 1px #ffffff77;
+    padding: 8px 0 8px 0;
     
-}
-
-table tr td.hour {
-    position: relative;
-    right: 0%;
 }
 
 

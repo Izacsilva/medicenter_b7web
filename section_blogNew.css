@@ -38,6 +38,15 @@
 article a {
     text-decoration: none;
 }
+#blogNews .newsPosts {
+    transition:transform 0.3s;
+    
+}
+
+#blogNews .newsPosts:hover {
+    transform: scale(1.01);
+    
+}
 
 #blogNews .newsPosts .newsData {
     display: flex;
