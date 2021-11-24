@@ -1,0 +1,23 @@
+@media (max-width: 760px) {
+    #banner {
+        height: auto;
+    }
+    .banner_headline {
+        padding: 24px;
+    }
+    .banner_headline h1 {
+      font-size: 56px;
+      line-height: 52px;
+      margin-bottom: 16px;
+  }  
+
+  .banner_headline h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .banner_options {
+    height: auto;
+    flex-direction: column;
+  }
+}
