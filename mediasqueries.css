@@ -1,7 +1,5 @@
-@media (max-width: 760px) {
-    #banner {
-        height: auto;
-    }
+@media (max-width: 768px) {
+    
     .banner_headline {
         padding: 24px;
     }
@@ -18,6 +16,43 @@
 
   .banner_options {
     height: auto;
-    flex-direction: column;
+    max-height: 240px;
   }
+
+  .widget {
+    padding-left: 16px;
+  }
+
+  #blogNews .widget_TitleText {
+    font-size: 18px;
+    
+  }
+  .widget_body .newsPosts {
+    padding-left: 8px;
+  }
+}
+
+@media (max-width: 425px) {
+  #banner {
+    height: auto;
+}
+.banner_headline {
+    padding: 24px;
+}
+.banner_headline h1 {
+  font-size: 56px;
+  line-height: 52px;
+  margin-bottom: 16px;
+}  
+
+.banner_headline h2 {
+font-size: 24px;
+line-height: 24px;
+}
+
+.banner_options {
+height: auto;
+flex-direction: column;
+}
+
 }
